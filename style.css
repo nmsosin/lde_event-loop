@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Roboto Slab", serif;
+  src: url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto Slab", serif;
+  src: url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+  font-weight: 600;
+}
+
+.page {
+  background-color: #dcb4a2;
+  font-family: "Roboto Slab", serif;
+}
+
+.page__container {
+  width: 640px;
+  height: 360px;
+  margin: 200px auto 0;
+  padding: 40px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgba(72, 72, 87, .8);
+}
+
+.page__title {
+  color: rgb(72, 72, 87);
+  font-weight: bold;
+  font-size: 60px;
+  margin: 0 0 5px ;
+}
+
+.page__status {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.page__subtitle {
+  color: rgb(72, 72, 87);
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.page__indicator {
+  width: 20px;
+  height: 20px;
+  background-color: #bd4a4a;
+  border-radius: 100%;
+}
+
+.page__indicator_done {
+  background-color: #51a76b;
+}
+
+.page__button {
+  padding: 10px 45px;
+  background-color: transparent;
+  border: 2px solid rgba(72, 72, 87, .8);
+  color: rgba(72, 72, 87, .8);
+  font-weight: normal;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.page__button:hover {
+  padding: 10px 50px;
+}
+
+.page__tasks {
+  margin: 45px 0 0;
+}
+
+.page__task {
+  color: rgba(72, 72, 87, .8);
+  font-weight: normal;
+  font-size: 22px;
+  padding-bottom: 40px;
+}
+
+.page__checkbox{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  background-image: url(./img/icons8-галочка.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  visibility: hidden;
+}
+
+.page__checkbox_done {
+  visibility: visible;
+}
+
+.page__text_additional {
+  font-weight: 600;
+}

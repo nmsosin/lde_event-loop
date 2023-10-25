@@ -17,8 +17,8 @@
 
 .page__container {
   width: 640px;
-  height: 360px;
-  margin: 200px auto 0;
+  height: 420px;
+  margin: 150px auto 0;
   padding: 40px 80px;
   display: flex;
   flex-direction: column;
@@ -32,6 +32,7 @@
   font-weight: bold;
   font-size: 60px;
   margin: 0 0 5px ;
+  padding-top: 20px;
 }
 
 .page__status {
